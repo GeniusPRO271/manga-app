@@ -3,7 +3,7 @@
  * https://docs.expo.io/guides/color-schemes/
  */
 
-import { Text as DefaultText, useColorScheme, View as DefaultView, Pressable, PressableProps, ScrollViewBase, ScrollViewComponent, ScrollResponderMixin, ScrollView } from 'react-native';
+import { Text as DefaultText, useColorScheme, View as DefaultView, Pressable, PressableProps, ScrollViewComponent, ScrollResponderMixin, ScrollView } from 'react-native';
 
 import Colors from '../constants/Colors';
 import { Constructor } from 'react-native/types/private/Utilities';

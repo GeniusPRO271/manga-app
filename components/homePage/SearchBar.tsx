@@ -1,14 +1,12 @@
 import {
   SafeAreaView,
   StyleSheet,
-  Text,
   TextInput,
   TextInputProps,
 } from "react-native";
 import React, { useState } from "react";
 import Icon from "../Icon";
 import { PressableView, View } from "../Themed";
-import { router } from "expo-router";
 import { FontAwesome } from "@expo/vector-icons";
 
 export default function SearchBar(props: TextInputProps) {

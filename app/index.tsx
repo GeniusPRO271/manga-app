@@ -1,4 +1,4 @@
-import { RefreshControl, ScrollView, StyleSheet, Text } from "react-native";
+import { RefreshControl, ScrollView, StyleSheet } from "react-native";
 import React, { useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import SearchBar from "../components/homePage/SearchBar";
@@ -6,13 +6,11 @@ import BookGallery from "../components/homePage/BookGallery";
 import { View } from "../components/Themed";
 import { ChapterListParams, MangaSearchParams } from "../api/param";
 import { router } from "expo-router";
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import { getFavorites } from "../api/storage";
 
 export default function HomePage() {
   const [refresh, setRefresh] = useState<boolean>(false);
   const [favorites, setFavorites] = useState<string[]>();
-  const [refreshKey, setRefreshKey] = useState<number>(0);
 
   const TopRatedParams: MangaSearchParams = {
     limit: 10,

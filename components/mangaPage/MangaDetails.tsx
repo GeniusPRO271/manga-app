@@ -1,7 +1,6 @@
 import { StyleSheet } from "react-native";
 import React from "react";
 import { View, Text } from "../Themed";
-import Icon from "../Icon";
 import { MangaDetailsParams } from "../../app/manga/[id]";
 
 export default function MangaDetails({

@@ -1,6 +1,6 @@
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import {StyleSheet, View } from "react-native";
 import React, { useEffect, useState } from "react";
-import { FontAwesome, FontAwesome5 } from "@expo/vector-icons";
+import { FontAwesome } from "@expo/vector-icons";
 import { PressableView } from "../Themed";
 import { router, useLocalSearchParams } from "expo-router";
 import { AddToFavorites, RemoveFromFavorites, isFavorite } from "../../api/storage";

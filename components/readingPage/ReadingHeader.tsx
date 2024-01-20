@@ -1,10 +1,9 @@
 import { StyleSheet, SafeAreaView } from "react-native";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { PressableView, Text, View } from "../Themed";
 import Icon from "../Icon";
-import { router, useLocalSearchParams } from "expo-router";
+import { router } from "expo-router";
 import { ChapterDetails } from "../../api/param";
-import { isFavorite } from "../../api/storage";
 
 export default function ReadingHeader(params : ChapterDetails) {
   return (

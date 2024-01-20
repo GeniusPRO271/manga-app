@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text } from "react-native";
+import { StyleSheet } from "react-native";
 import React, { useEffect, useState } from "react";
 import { router, useLocalSearchParams } from "expo-router";
 import { MangaSearchParams } from "../../api/param";
@@ -6,7 +6,7 @@ import Book, { BookParams } from "../../components/homePage/Book";
 import { fetchMangaBookParams } from "../../api/api-services";
 import SearchBar from "../../components/homePage/SearchBar";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { PressableView, View } from "../../components/Themed";
+import { View } from "../../components/Themed";
 import { RefreshControl, ScrollView } from "react-native-gesture-handler";
 
 export default function Search() {

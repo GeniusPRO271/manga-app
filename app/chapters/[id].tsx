@@ -3,12 +3,7 @@ import React, { useEffect, useState } from "react";
 import { featchMangaFeed } from "../../api/api-services";
 import { router, useLocalSearchParams } from "expo-router";
 import { MangaFeedParams } from "../../api/param";
-import {
-  PressableView,
-  ScrollViewThemed,
-  Text,
-  View,
-} from "../../components/Themed";
+import { PressableView, Text, View } from "../../components/Themed";
 import { ScrollView } from "react-native-gesture-handler";
 import SearchBar from "../../components/homePage/SearchBar";
 import Icon from "../../components/Icon";
@@ -95,13 +90,13 @@ export default function ChaptersList() {
           <SearchBar
             placeholder="Search for Manga"
             placeholderTextColor={"white"}
-            style={{marginHorizontal: 10}}
+            style={{ marginHorizontal: 10 }}
             onSubmitEditing={() => {
               router.replace("/search/${name}");
             }}
           />
           <ScrollView
-          showsVerticalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
             scrollEventThrottle={400}
             style={{ marginBottom: "auto", marginTop: 10 }}
             onScroll={({ nativeEvent }) => {
@@ -114,7 +109,7 @@ export default function ChaptersList() {
             }}
           >
             {chaptersData &&
-              chaptersData.map((chapter: MangaFeed, index:number) => {
+              chaptersData.map((chapter: MangaFeed, index: number) => {
                 return (
                   <PressableView
                     onPress={() => {
@@ -167,8 +162,7 @@ const styles = StyleSheet.create({
     paddingVertical: 18,
     opacity: 0.8,
   },
-  Maincontainer: {
-  },
+  Maincontainer: {},
   container: {
     flexDirection: "row",
     justifyContent: "center",

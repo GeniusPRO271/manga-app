@@ -4,8 +4,7 @@ import { router, useLocalSearchParams } from "expo-router";
 import {
   PressableView,
   Text,
-  View,
-  ScrollViewThemed,
+  View
 } from "../../components/Themed";
 import { fetchMangaBookDetailsParams } from "../../api/api-services";
 import { FontAwesome } from "@expo/vector-icons";
