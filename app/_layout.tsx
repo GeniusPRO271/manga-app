@@ -48,8 +48,12 @@ function RootLayoutNav() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="more/[query]" options={{ headerShown: false }} />
+        <Stack.Screen name="manga/[id]" options={{ headerShown: false }} />
+        <Stack.Screen name="chapters/[id]" options={{ headerShown: false }} />
+        <Stack.Screen name="chapters/reading/[id]" options={{ headerShown: false }} />
+        <Stack.Screen name="search/[name]" options={{ headerShown: false }} />
       </Stack>
     </ThemeProvider>
   );
