@@ -4,6 +4,7 @@ import { useFonts } from 'expo-font';
 import { SplashScreen, Stack } from 'expo-router';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -46,15 +47,16 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="more/[query]" options={{ headerShown: false }} />
-        <Stack.Screen name="manga/[id]" options={{ headerShown: false }} />
-        <Stack.Screen name="chapters/[id]" options={{ headerShown: false }} />
-        <Stack.Screen name="chapters/reading/[id]" options={{ headerShown: false }} />
-        <Stack.Screen name="search/[name]" options={{ headerShown: false }} />
-      </Stack>
-    </ThemeProvider>
+    <GestureHandlerRootView>
+      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+        <Stack>
+          <Stack.Screen name="index" options={{ headerShown: false }} />
+          <Stack.Screen name="more/[query]" options={{ headerShown: false }} />
+          <Stack.Screen name="manga/[id]" options={{ headerShown: false }} />
+          <Stack.Screen name="chapters/[id]" options={{ headerShown: false }} />
+          <Stack.Screen name="chapters/reading/[id]" options={{ headerShown: false }} />
+          <Stack.Screen name="search/[name]" options={{ headerShown: false }} />
+        </Stack>
+      </ThemeProvider></GestureHandlerRootView>
   );
 }
