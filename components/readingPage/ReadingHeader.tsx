@@ -5,12 +5,12 @@ import Icon from "../Icon";
 import { router } from "expo-router";
 import { ChapterDetails } from "../../api/param";
 
-export default function ReadingHeader(params : ChapterDetails) {
+export default function ReadingHeader(params: ChapterDetails) {
   return (
     <SafeAreaView>
       <View style={{ marginBottom: "auto" }}>
         <View style={styles.container}>
-          <PressableView onPress={() => {router.canGoBack() && router.back()}} style={[styles.icon, { alignItems: "flex-start" }]}>
+          <PressableView onPress={() => { router.canGoBack() && router.back() }} style={[styles.icon, { alignItems: "flex-start" }]}>
             <Icon
               source="chevron_left"
               width={16}

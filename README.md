@@ -1,49 +1,86 @@
-# Expo Manga Reader App
+# Manga App 📱
 
-## Installation
+A modern, cross-platform mobile application for manga enthusiasts, built with React Native and Expo. This app provides a seamless experience for reading and discovering manga content.
 
-To install and run the Expo Manga Reader app, follow these steps:
+## 🚀 Features
 
-1. **Clone the repository:**
+- Cross-platform support (iOS & Android)
+- Modern and intuitive user interface
+- Efficient manga browsing and reading experience
+- Responsive design for various screen sizes
+- Offline capabilities with local storage
+- Smooth navigation and transitions
 
-   ```bash
-   git clone https://github.com/your-username expo-manga-reader.git
+## 🛠️ Technologies Used
 
-   cd expo-manga-reader
-   ```
+- **Frontend Framework**: React Native
+- **Development Platform**: Expo
+- **Navigation**: Expo Router
+- **State Management**: React Native Async Storage
+- **HTTP Client**: Axios
+- **Type Safety**: TypeScript
+- **Testing**: Jest & React Test Renderer
+- **UI Components**: React Native Vector Icons
+- **Styling**: React Native SVG
 
-2. **Install dependencies:**
+## 💻 Development Skills Demonstrated
 
-   ```bash
-   npm install
-   ```
+- **Mobile Development**: Cross-platform mobile app development using React Native
+- **TypeScript**: Strong typing and type safety implementation
+- **Modern Architecture**: Clean and maintainable code structure
+- **API Integration**: Efficient data fetching and state management
+- **UI/UX Design**: Responsive and user-friendly interface
+- **Testing**: Implementation of unit tests using Jest
+- **Version Control**: Git for source code management
+- **Package Management**: npm/yarn for dependency management
 
-3. **Start the Expo development server:**
+## 🚀 Getting Started
 
-   ```bash
-   npm start
-   ```
+1. Clone the repository:
+```bash
+git clone https://github.com/GeniusPRO271/manga-app.git
+```
 
-   This will open Expo DevTools. You can then run the app on an emulator, simulator, or a physical device.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Features
-1. **Extensive Manga Library:** Access a vast collection of manga titles from various genres.
+3. Start the development server:
+```bash
+npm start
+```
 
-2. **Intuitive Reading Experience:** Enjoy a smooth and user-friendly interface for reading manga.
+4. Run on your preferred platform:
+```bash
+# For iOS
+npm run ios
 
-3. **Offline Reading:** Download your favorite manga chapters for offline reading convenience.
+# For Android
+npm run android
 
-4. **Bookmarking:** Keep track of your progress with a built-in bookmark feature.
+# For web
+npm run web
+```
 
-5. **Night Mode:** Read comfortably in low-light conditions with the app's night mode.
+## 📱 Screenshots
 
-## Technologies Used
+[Add your app screenshots here]
 
-**Expo:** A framework for building React Native applications with ease.
+## 🤝 Contributing
 
-**React Native:** A JavaScript framework for building cross-platform mobile applications.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Credits
-**API:** Thanks to Magadex for providing the API used in this app.
+## 📄 License
 
-**Author:** Developed by GeniusPro.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👤 Author
+
+- **Benjamin Toro**
+  - GitHub: [GeniusPRO271](https://github.com/GeniusPRO271)
+  - Portfolio: [Your Portfolio URL]
+
+---
+
+Made with ❤️ by Benjamin Toro
