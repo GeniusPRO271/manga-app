@@ -63,23 +63,11 @@ npm run android
 npm run web
 ```
 
-## 📱 Screenshots
-
-[Add your app screenshots here]
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👤 Author
 
-- **Benjamin Toro**
+- **GeniusPRO271**
   - GitHub: [GeniusPRO271](https://github.com/GeniusPRO271)
-  - Portfolio: [Your Portfolio URL]
 
 ---
 
